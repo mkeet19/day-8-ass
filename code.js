@@ -96,4 +96,3 @@ var namefunctions = function namefunc() {
 //     alert("Name must be filled out");
 //     return false;
 //   }
-}
