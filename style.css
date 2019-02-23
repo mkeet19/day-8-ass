@@ -124,7 +124,7 @@ header {
   height: 600px;
   width: 100%;
   background: linear-gradient(120deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
-    url("../img/ethan-mcarthur-653528-unsplash.jpg");
+    url("./img/ethan-mcarthur-653528-unsplash.jpg");
   background-size: cover;
   background-position: 100% 50%;
 }
@@ -221,7 +221,7 @@ footer a {
 
 /* 
     About  Page  */
-
+/* 
 .main-div {
   display: flex;
 }
@@ -288,12 +288,11 @@ footer a {
   /* .double-angled-icon {
             display: block;
         } */
-}
 
 /********Service page************
     ********************************/
 
-.square-right-icon {
+/* .square-right-icon {
   display: none;
   background: transparent;
   border: none;
