@@ -70,30 +70,30 @@ var namefunctions = function namefunc() {
     console.log("cannot find name 1");
   }
 };
-window.onload = namefunctions;
-var walkForwards = true;
-function catWalk() {
-  var img = document.getElementById("cat");
-  var currentLeft = parseInt(img.style.left);
-  if (walkForwards && currentLeft > window.innerWidth - img.width) {
-    walkForwards = false;
-  }
-  if (!walkForwards && currentLeft <= 0) {
-    walkForwards = true;
-  }
-  if (walkForwards) {
-    img.style.left = currentLeft + 10 + "px";
-  } else {
-    img.style.left = currentLeft - 10 + "px";
-  }
-}
+// window.onload = namefunctions;
+// var walkForwards = true;
+// function catWalk() {
+//   var img = document.getElementById("cat");
+//   var currentLeft = parseInt(img.style.left);
+//   if (walkForwards && currentLeft > window.innerWidth - img.width) {
+//     walkForwards = false;
+//   }
+//   if (!walkForwards && currentLeft <= 0) {
+//     walkForwards = true;
+//   }
+//   if (walkForwards) {
+//     img.style.left = currentLeft + 10 + "px";
+//   } else {
+//     img.style.left = currentLeft - 10 + "px";
+//   }
+// }
 
-setInterval(catWalk, 50);
+// setInterval(catWalk, 50);
 
-function validateForm() {
-  var x = document.forms["myForm"]["fname"].value;
-  if (x == "") {
-    alert("Name must be filled out");
-    return false;
-  }
+// function validateForm() {
+//   var x = document.forms["myForm"]["fname"].value;
+//   if (x == "") {
+//     alert("Name must be filled out");
+//     return false;
+//   }
 }
